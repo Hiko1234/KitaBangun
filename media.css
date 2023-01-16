@@ -1,0 +1,204 @@
+@media only screen and (max-width: 1024px){
+    .nav{
+        display: none;
+    }
+
+    .burger{
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        margin-top: 13px;
+    }
+
+    .burger::before,
+    .burger::after{
+        content: '';
+        background-color: #fff;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+    }
+
+    .burger span{
+        position: absolute;
+        background-color: #fff;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+    }
+
+    .burger::before{
+        top: 0;
+    }
+
+    .burger::after{
+        bottom: 0;
+    }
+
+    header{
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .item-card{
+        display: block;
+    }
+    
+    .card{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .items-information{
+        display: block;
+    }
+
+    .information-img{
+        width: 100%;
+    }
+
+    .item-information{
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .statistic-section-information{
+        display: block;
+    }
+
+    .information-donations{
+        width: 100%;
+        margin-top: 48px;
+    }    
+
+    .statistic-section-img{
+        width: 100%;
+    }
+
+    .item-partners{
+        display: block;
+    }
+
+    .group-partners{
+        width: 100%;
+    }
+
+    .partners{
+        flex-wrap: wrap;
+    }
+
+    .partner{
+        width: 50%;
+    }
+
+    .item-partners-btn{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .items-footer{
+        display: block;
+    }
+
+    .item-footer-first{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .item-footer-second{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .text-align{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .title{
+        font-size: 40px;
+        line-height: 52px;
+    }
+
+    .item-title{
+        max-width: 400px;
+    }
+
+    .title-btn{
+        display: block;
+    }
+
+    .watch-video-btn{
+        margin-top: 30px;
+        justify-content: center;
+    }
+
+    .item-number{
+        display: none;
+    }
+
+    .items-switch{
+        display: block;
+    }
+
+    .item-switch{
+        justify-content: center;
+    }
+
+    .item-switch-btn{
+        display: flex;
+        justify-content: center;
+    }
+
+    .item-app-section{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .information-donations{
+        display: block;
+    }
+
+    .information-donations-left{
+        width: 100%;
+    }
+
+    .information-donations-right{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .partner{
+        width: 100%;
+    }
+
+    .contacts a{
+        font-size: 20px;
+    }
+
+    .item-footer-first{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .position-top{
+        margin-top: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 410px){
+    .card{
+        width: 100%;
+    }
+}
